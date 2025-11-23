@@ -76,7 +76,7 @@ export default function DashboardClient({ user, profile, assessments }: Dashboar
         return "bg-orange-100 text-orange-800 border-orange-200"
       case "moderately severe":
         return "bg-red-100 text-red-800 border-red-200"
-      case "severe":
+      case "very severe":
         return "bg-red-200 text-red-900 border-red-300"
       default:
         return "bg-gray-100 text-gray-800 border-gray-200"
